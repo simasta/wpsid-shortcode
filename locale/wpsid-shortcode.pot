@@ -1,0 +1,136 @@
+# Copyright (C) 2017 WPSID Shortcode
+# This file is distributed under the same license as the WPSID Shortcode package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSID Shortcode 1.0.6.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsid-shortcode\n"
+"POT-Creation-Date: 2017-04-16 17:28:09+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: controllers/controller-admin.php:12
+msgid "WPSID"
+msgstr ""
+
+#: controllers/controller-admin.php:13
+msgid "Config"
+msgstr ""
+
+#: controllers/controller-admin.php:14
+msgid "Shortcodes"
+msgstr ""
+
+#: controllers/controller-admin.php:15
+msgid "About"
+msgstr ""
+
+#: controllers/controller-admin.php:20
+msgid "Shortcodes List"
+msgstr ""
+
+#: controllers/controller-admin.php:87
+msgid "About WPSID"
+msgstr ""
+
+#: controllers/controller-admin.php:103
+msgid "DB connection filed"
+msgstr ""
+
+#: controllers/controller-admin.php:106
+msgid "SID Path is not directory"
+msgstr ""
+
+#: controllers/controller-admin.php:113
+msgid "WPSID Config"
+msgstr ""
+
+#: controllers/controller-admin.php:133
+msgid "Database and Path"
+msgstr ""
+
+#: controllers/controller-admin.php:137
+msgid "DB Name"
+msgstr ""
+
+#: controllers/controller-admin.php:138
+msgid "DB User"
+msgstr ""
+
+#: controllers/controller-admin.php:139
+msgid "DB Password"
+msgstr ""
+
+#: controllers/controller-admin.php:140
+msgid "DB Host"
+msgstr ""
+
+#: controllers/controller-admin.php:142
+msgid "SID Full Path"
+msgstr ""
+
+#: controllers/controller-admin.php:143
+msgid "SID Home Url"
+msgstr ""
+
+#: controllers/controller-admin.php:168
+msgid "Set database connection and path for Opensid / SID."
+msgstr ""
+
+#: controllers/controller-admin.php:168
+msgid "Status"
+msgstr ""
+
+#: controllers/controller-admin.php:168
+msgid "Ready"
+msgstr ""
+
+#: controllers/controller-admin.php:168
+msgid "Not ready"
+msgstr ""
+
+#: controllers/controller-admin.php:205 controllers/controller-admin.php:214
+msgid "Default"
+msgstr ""
+
+#: shortcodes/shortcode-version.php:22
+msgid "Unknown version"
+msgstr ""
+
+#: shortcodes/shortcode-version.php:34
+msgid "Using Wordpress %s, OpenSID %s and WPSID Shortcode Plugin %s"
+msgstr ""
+
+#: shortcodes/shortcode-version.php:41
+msgid "Wordpress"
+msgstr ""
+
+#: shortcodes/shortcode-version.php:42
+msgid "OpenSID"
+msgstr ""
+
+#: shortcodes/shortcode-version.php:43
+msgid "WPSID Shortcode Plugin"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "WPSID Shortcode"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.siini.com/wordpress/plugins/wpsid-shortcode/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Integrate OpenSID and SID to Wrodpress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Simasta"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://simasta.siini.com"
+msgstr ""

@@ -1,0 +1,140 @@
+# Copyright (C) 2017 WPSID Shortcode
+# This file is distributed under the same license as the WPSID Shortcode package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSID Shortcode 1.0.6.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsid-shortcode\n"
+"POT-Creation-Date: 2017-04-17 00:33+0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-04-17 00:39+0700\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.12\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: id_ID\n"
+
+#: controllers/controller-admin.php:12
+msgid "WPSID"
+msgstr "WPSID"
+
+#: controllers/controller-admin.php:13
+msgid "Config"
+msgstr "Konfigurasi"
+
+#: controllers/controller-admin.php:14
+msgid "Shortcodes"
+msgstr "Shortcode"
+
+#: controllers/controller-admin.php:15
+msgid "About"
+msgstr "Tentang"
+
+#: controllers/controller-admin.php:20
+msgid "Shortcodes List"
+msgstr "Daftar Shortcode"
+
+#: controllers/controller-admin.php:87
+msgid "About WPSID"
+msgstr "Tentang WPSID"
+
+#: controllers/controller-admin.php:103
+msgid "DB connection filed"
+msgstr "Database gagal terhubung"
+
+#: controllers/controller-admin.php:106
+msgid "SID Path is not directory"
+msgstr "Folder SID  salah"
+
+#: controllers/controller-admin.php:113
+msgid "WPSID Config"
+msgstr "Konfigurasi WPSID"
+
+#: controllers/controller-admin.php:133
+msgid "Database and Path"
+msgstr "Database dan Path"
+
+#: controllers/controller-admin.php:137
+msgid "DB Name"
+msgstr "Nama DB"
+
+#: controllers/controller-admin.php:138
+msgid "DB User"
+msgstr "Pengguna DB"
+
+#: controllers/controller-admin.php:139
+msgid "DB Password"
+msgstr "Sandi DB"
+
+#: controllers/controller-admin.php:140
+msgid "DB Host"
+msgstr "Host DB"
+
+#: controllers/controller-admin.php:142
+msgid "SID Full Path"
+msgstr "Path folder SID"
+
+#: controllers/controller-admin.php:143
+msgid "SID Home Url"
+msgstr "Url Beranda SID"
+
+#: controllers/controller-admin.php:168
+msgid "Set database connection and path for Opensid / SID."
+msgstr "Isikan konfigurasi database dan path Opensid / SID."
+
+#: controllers/controller-admin.php:168
+msgid "Status"
+msgstr "Status"
+
+#: controllers/controller-admin.php:168
+msgid "Ready"
+msgstr "Siap digunakan"
+
+#: controllers/controller-admin.php:168
+msgid "Not ready"
+msgstr "Tidak siap digunakan"
+
+#: controllers/controller-admin.php:205 controllers/controller-admin.php:214
+msgid "Default"
+msgstr "Bawaan"
+
+#: shortcodes/shortcode-version.php:22
+msgid "Unknown version"
+msgstr "Versi tidak dikenal"
+
+#: shortcodes/shortcode-version.php:34
+msgid "Using Wordpress %s, OpenSID %s and WPSID Shortcode Plugin %s"
+msgstr "Menggunakan Wordpress %s, OpenSID %s and WPSID Shortcode Plugin %s"
+
+#: shortcodes/shortcode-version.php:41
+msgid "Wordpress"
+msgstr "Wordpress"
+
+#: shortcodes/shortcode-version.php:42
+msgid "OpenSID"
+msgstr "OpenSID"
+
+#: shortcodes/shortcode-version.php:43
+msgid "WPSID Shortcode Plugin"
+msgstr "Plugin WPSID Shortcode"
+
+#. Plugin Name of the plugin/theme
+msgid "WPSID Shortcode"
+msgstr "WPSID Shortcode"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.siini.com/wordpress/plugins/wpsid-shortcode/"
+msgstr "http://www.siini.com/wordpress/plugins/wpsid-shortcode/"
+
+#. Description of the plugin/theme
+msgid "Integrate OpenSID and SID to Wrodpress."
+msgstr "Memadukan OpenSID dan SID ke dalam Wrodpress."
+
+#. Author of the plugin/theme
+msgid "Simasta"
+msgstr "Simasta"
+
+#. Author URI of the plugin/theme
+msgid "http://simasta.siini.com"
+msgstr "http://simasta.siini.com"
