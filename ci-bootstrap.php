@@ -1,9 +1,9 @@
 <?php
 defined( 'ABSPATH' ) || die( 'No direct script access allowed!' );
 $application_folder = OPENSID_APPPATH . '/donjo-app';
-$system_path = OPENSID_APPPATH . '/donjo-sys/';
+$system_path = OPENSID_APPPATH . '/system/';
 if ( ! defined( 'BASEPATH' ) )
-	define( 'BASEPATH', str_replace( "\\", "/", OPENSID_APPPATH . '/donjo-sys/' ) );
+	define( 'BASEPATH', str_replace( "\\", "/", OPENSID_APPPATH . '/system/' ) );
 if ( ! defined( 'APPPATH' ) ) {
 	if ( is_dir( $application_folder ) ) {
 		define( 'APPPATH', $application_folder . '/' );
@@ -14,8 +14,8 @@ if ( ! defined( 'APPPATH' ) ) {
 		define( 'APPPATH', BASEPATH . $application_folder . '/' );
 	}
 }
-include_once OPENSID_APPPATH . '/donjo-sys/core/Common.php';
-include_once OPENSID_APPPATH . '/donjo-sys/database/DB.php';
+include_once OPENSID_APPPATH . '/system/core/Common.php';
+include_once OPENSID_APPPATH . '/system/database/DB.php';
 function &opensid_ci_load_database($active_record_override = true) {
 	$database =& DB( OPENSID_CONNECT, $active_record_override );
 	return $database;
@@ -26,9 +26,9 @@ class OPENSID___FAKE_LOAD {
 	}
 }
 global $SEC, $CFG, $UNI;
-include OPENSID_APPPATH . '/donjo-sys/core/Security.php';
-include OPENSID_APPPATH . '/donjo-sys/core/Config.php';
-include OPENSID_APPPATH . '/donjo-sys/core/Utf8.php';
+include OPENSID_APPPATH . '/system/core/Security.php';
+include OPENSID_APPPATH . '/system/core/Config.php';
+include OPENSID_APPPATH . '/system/core/Utf8.php';
 $SEC =& new CI_Security;
 $CFG =& new CI_Config;
 $UNI =& new CI_Utf8;
