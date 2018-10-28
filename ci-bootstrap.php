@@ -98,3 +98,19 @@ function getBulan($bln){
 					break;
 			}
 	}
+
+	/*
+	* @return - null, kalau tgl_lahir bukan string tanggal
+	*/
+	function umur($tgl_lahir)
+	{
+		try {
+			$date = new DateTime($tgl_lahir);
+		}
+		catch (Exception $e) {
+			return null;
+		}
+		$now      = new DateTime();
+		$interval = $now->diff($date);
+		return $interval->y;
+	}
