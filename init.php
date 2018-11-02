@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ALL||E_WARNING);
 defined( 'ABSPATH' ) || die( 'No direct script access allowed!' );
 define( 'OPENSID_OPTION_KEY', 'wpsid_config' );
 if(strpos($_SERVER['HTTP_HOST'], '.demo.siini.com') !== false || strpos($_SERVER['HTTP_HOST'], '.devhost') !== false)

@@ -55,7 +55,7 @@ class OpenSID_Data_statistik_Shortcode extends OpenSID_Shortcode {
 				break;
 		}
 		ob_start();
-		if ( $data['statistik'] == null ) {
+		if ( $data['statistik'] === null ) {
 			echo 'Anda menggunakan ' . OPENSID_APP_TYPE . ', shortcode ini hanya dapat digunakan bersama OpenSID.';
 		} else {
 			echo self::render( $data );

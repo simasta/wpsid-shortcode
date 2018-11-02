@@ -29,9 +29,11 @@ global $SEC, $CFG, $UNI;
 include OPENSID_APPPATH . '/system/core/Security.php';
 include OPENSID_APPPATH . '/system/core/Config.php';
 include OPENSID_APPPATH . '/system/core/Utf8.php';
-$SEC =& new CI_Security;
-$CFG =& new CI_Config;
-$UNI =& new CI_Utf8;
+
+$SEC =new CI_Security;
+$CFG =new CI_Config;
+$UNI =new CI_Utf8;
+
 function hash_pin($pin=""){
 	$pin = strrev($pin);
 	$pin = $pin*77;
@@ -96,4 +98,20 @@ function getBulan($bln){
 					return "Desember";
 					break;
 			}
+	}
+
+	/*
+	* @return - null, kalau tgl_lahir bukan string tanggal
+	*/
+	function umur($tgl_lahir)
+	{
+		try {
+			$date = new DateTime($tgl_lahir);
+		}
+		catch (Exception $e) {
+			return null;
+		}
+		$now      = new DateTime();
+		$interval = $now->diff($date);
+		return $interval->y;
 	}
