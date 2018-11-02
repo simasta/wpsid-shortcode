@@ -7,9 +7,9 @@ class OpenSID_Layanan_Mandiri_Detail_Shortcode extends OpenSID_Shortcode {
 	public function setup($action, array $data) {
 		parent::setup($action, $data);
 		if( isset($_POST['mandiri']) && $_POST['mandiri'] == 'login' )
-			OpenSID::load_ci_model('first')->siteman();
+			OpenSID::load_ci_model('First')->siteman();
 		if( isset($_REQUEST['mandiri']) && $_REQUEST['mandiri'] == 'logoff' )
-			OpenSID::load_ci_model('first')->logout();
+			OpenSID::load_ci_model('First')->logout();
 		if( !self::_is_logged() ) {
 			echo do_shortcode('[wpsid_layanan_mandiri_widget]');
 		} else {
